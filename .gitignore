@@ -1,0 +1,66 @@
+# ----------------------------
+# Data files
+# ----------------------------
+
+# Keep raw and processed datasets local
+data/raw/*
+!data/raw/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+
+
+# ----------------------------
+# Python
+# ----------------------------
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+
+# ----------------------------
+# Jupyter Notebook
+# ----------------------------
+
+.ipynb_checkpoints/
+
+
+# ----------------------------
+# Environment / secrets
+# ----------------------------
+
+.env
+.env.*
+*.env
+
+
+# ----------------------------
+# macOS
+# ----------------------------
+
+.DS_Store
+
+
+# ----------------------------
+# Database / export files
+# ----------------------------
+
+*.db
+*.sqlite
+*.sqlite3
+*.dump
+*.backup
+
+
+# ----------------------------
+# Temporary files
+# ----------------------------
+
+*.tmp
+*.log
