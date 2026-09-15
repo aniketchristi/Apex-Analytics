@@ -246,8 +246,7 @@ It includes:
 
 The Tableau workbook is stored in:
 
-`dashboard/Apex_Analytics_Dashboard.twb`
-
+dashboard/Apex_Analytics_Dashboard.twb
 ---
 
 ## Repository Structure
